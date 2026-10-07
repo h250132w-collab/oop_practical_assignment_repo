@@ -1,0 +1,29 @@
+
+Testing deposits:
+New balance = 5.0 after depositing 5.0 into X45
+Can only deposit amount greater than zero into S08
+
+NOW WORKING WITH ACCOUNT NUMBER : X45
+CURRENT BALANCE IS $5.0
+Withdrawal of $20.0 from X45 has been rejected because balance cannot go below $0.0
+Interest of $0.1 added to X45 New Balance = $5.1
+
+NOW WORKING WITH ACCOUNT NUMBER : Y23
+CURRENT BALANCE IS $50.0
+New balance = $30.0 after withdrawing $20.0 from Y23
+Interest of $0.6 added to Y23 New Balance = $30.6
+
+NOW WORKING WITH ACCOUNT NUMBER : S08
+CURRENT BALANCE IS $2.5
+S08 is now in overdraft (limit is -$30.0)
+New balance = $-17.5 after withdrawing $20.0
+Maintenance fee of $1.25 deducted from S08 New Balance = $-18.75
+
+NOW WORKING WITH ACCOUNT NUMBER : D12
+CURRENT BALANCE IS $7.0
+Withdrawal of $20.0 from D12 has been rejected because balance cannot go below -$10.0
+Maintenance fee of $1.25 deducted from D12 New Balance = $5.75
+
+Testing zero withdrawals:
+Can only withdraw amount greater than zero from Y23
+Can only withdraw amount greater than zero from D12
