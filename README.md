@@ -1,2 +1,6 @@
 # oop
-A repository for Object Oriented Programming in Java
+A repository for PRACTICAL ASSIGNMENT 1 for Object Oriented Programming in Java
+
+CHIKODZE KINGSTONE TADIWANASHE
+H250132W
+SOFTWARE ENGINEERING
